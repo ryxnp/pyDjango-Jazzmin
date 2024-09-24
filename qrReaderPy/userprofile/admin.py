@@ -3,7 +3,7 @@ from django.contrib.auth.models import Group, User
 from .models import Profile
 
 #Unregistering Models
-# admin.site.unregister(Group)
+admin.site.unregister(Group)
 
 #Mix Profile Info
 class ProfileInline(admin.StackedInline):
